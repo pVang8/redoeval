@@ -36,3 +36,81 @@
     transform: rotate(360deg);
   }
 }
+
+
+.heroImage1{
+  background-image: url('./Images/HomepageBackground.jpg');
+  min-height: 100vh;
+  max-height: 100%;
+  background-size: cover;
+}
+.heroImage2{
+  background-image: url('./Images/HomepageBackground.jpg');
+  min-height: auto;
+  max-height: 100%;
+  background-size: cover;
+}
+
+
+.navImg{
+  width: 40px;
+  height: 40px;
+}
+.navColor{
+  background-color: black;
+  padding-left: 0%;
+  padding-right: 0%;
+  
+  
+}
+.navWord{
+  color: white !important;
+}
+.lrpad{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.secImg{
+  width: 280px;
+  height: 150px;
+}
+.smallF{
+  font-size: 15px;
+}
+.scrollBox{
+  background-color: white;
+  width: auto;
+  height: 300px;
+}
+.textBold{
+  font-weight: bold;
+  font-size: 30px;
+}
+.scroll{
+  height:200px;
+  width:auto;
+  border:1px solid #ccc;
+  font:16px/26px Georgia, Garamond, Serif;
+  overflow:auto;
+}
+.purBtn{
+  background-color: #6600cc !important;
+  color: white;
+}
+.objecti{
+  color: white;
+  font-size: 50px;
+  font-weight: Bold;
+}
+.objBox{
+  background-color: white;
+  width: 100%;
+  height: 300px;
+}
+.vioText{
+  color: #6600cc;
+  font-weight: bold;
+}
+.cardTitle{
+  background-color: #e5e0f3;
+}

@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes, Navigate} from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import myNavBar from './Components/myNavBar';
+
+import FirstPage from './Pages/FirstPage';
+import SecoPage from './Pages/SecoPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+
+    <Routes>
+      <Route path ="/" element ={<FirstPage/>} />
+      <Route path ="/secoPage" element ={<SecoPage/>} />
+    </Routes>
+    
+    </BrowserRouter>
   );
 }
 
